@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Writers from './Writers'
 import { NotFound } from './Errors'
-import Layout from './Layout/index'
+import Layout from './Layout'
 
 export default class App extends Component {
   state = {
